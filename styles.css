@@ -2,19 +2,23 @@
 @tailwind components;
 
 .btn {
-  @apply shadow-md px-4 py-3 text-white font-bold rounded;
+  @apply bg-primary shadow-md px-4 py-3 text-white font-bold rounded;
 }
 
 .btn:focus {
   @apply outline-none;
 }
 
-.btn-primary {
-  @apply bg-primary;
+.btn:hover {
+  @apply bg-primaryMinus1;
 }
 
-.btn-primary:hover {
-  @apply bg-primaryMinus1 
+.btn-secondary {
+  @apply bg-white text-grayPlus1;
+}
+
+.btn-secondary:hover {
+  @apply text-grayPlus2 bg-grayMinus2;
 }
 
 @tailwind utilities;
