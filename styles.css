@@ -25,4 +25,20 @@
   @apply bg-grayMinus2 text-gray cursor-default;
 }
 
+.input {
+  @apply border border-grayMinus1 rounded h-12 px-4 bg-grayMinus3;
+}
+
+.input:hover:enabled {
+  @apply border-primaryPlus1;
+}
+
+.input:focus {
+  @apply bg-white outline-none border-primaryPlus1 shadow-focusedInput;
+}
+
+.input:disabled {
+  @apply bg-grayMinus2 border-grayMinus2;
+}
+
 @tailwind utilities;

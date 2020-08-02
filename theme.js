@@ -105,6 +105,7 @@ const theme = {
     lg: "0 2px 12px 0 rgba(0,0,0,0.1)",
     header: "0 2px 6px 0 rgba(0,0,0,0.1)",
     sidebar: "0 0 4px 0 rgba(0,0,0,0.2)",
+    focusedInput: "0 0 0 1px #009feb"
   },
   opacities: {
     15: 0.15,
