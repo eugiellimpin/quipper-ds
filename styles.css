@@ -21,4 +21,8 @@
   @apply text-grayPlus2 bg-grayMinus2;
 }
 
+.btn-disabled, .btn-disabled:hover {
+  @apply bg-grayMinus2 text-gray cursor-default;
+}
+
 @tailwind utilities;
