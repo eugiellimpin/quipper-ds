@@ -1,4 +1,9 @@
 @tailwind base;
+
+:root {
+  @apply text-grayPlus2;
+}
+
 @tailwind components;
 
 .btn {
