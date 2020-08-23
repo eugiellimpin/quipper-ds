@@ -1,13 +1,13 @@
 @tailwind base;
 
 :root {
-  @apply text-grayPlus2;
+  @apply text-14 text-grayPlus2;
 }
 
 @tailwind components;
 
 .btn {
-  @apply bg-primary shadow-md px-4 py-3 text-white font-bold rounded;
+  @apply bg-primary shadow-md px-16 h-48 text-white font-bold rounded;
 }
 
 .btn:focus {
@@ -26,12 +26,13 @@
   @apply text-grayPlus2 bg-grayMinus2;
 }
 
-.btn:disabled, .btn:disabled:hover {
+.btn:disabled,
+.btn:disabled:hover {
   @apply bg-grayMinus2 text-gray cursor-default;
 }
 
 .input {
-  @apply border border-grayMinus1 rounded h-12 px-4 bg-grayMinus3;
+  @apply border border-grayMinus1 rounded h-48 px-16 bg-grayMinus3;
 }
 
 .input:hover:enabled {
