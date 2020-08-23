@@ -50,7 +50,7 @@ const theme = {
   fonts: {
     body: "'Open Sans', 'Segoe UI', Tahoma, sans-serif",
   },
-  fontSizes: {
+  fontSize: {
     10: "10px",
     12: "12px",
     14: "14px",

@@ -4,6 +4,7 @@ module.exports = {
   purge: [],
   theme: {
     fontFamily: theme.fonts.body,
+    fontSize: theme.fontSize,
     colors: theme.colors,
     borderRadius: theme.borderRadius,
     boxShadow: theme.shadows,
