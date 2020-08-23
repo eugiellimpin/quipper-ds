@@ -100,6 +100,7 @@ const theme = {
     lg: "8px",
   },
   shadows: {
+    none: 'none',
     sm: "0 1px 3px 0 rgba(0,0,0,0.15)",
     md: "0 1px 6px 0 rgba(0,0,0,0.1)",
     lg: "0 2px 12px 0 rgba(0,0,0,0.1)",
