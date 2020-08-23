@@ -2,7 +2,7 @@
 
 - [ ] Set up PostCSS
 - [ ] Better build process
-- [ ] Set up package to be installable via `$ yarn add quipper-ds`
+- [ ] Set up package to be installable via `yarn add quipper-ds`
 
 # Usage
 
