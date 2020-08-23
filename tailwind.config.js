@@ -16,6 +16,13 @@ module.exports = {
       16: "16px",
       48: "48px",
     },
+    transitionProperty: {
+      'shadow': 'box-shadow',
+      'bg': 'background-color',
+    },
+    transitionDuration: {
+      '200': '200ms',
+    }
   },
   variants: {},
   plugins: [],
