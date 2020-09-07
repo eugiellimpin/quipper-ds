@@ -14,7 +14,9 @@ module.exports = {
       8: "8px",
       14: "14px",
       16: "16px",
+      40: "40px",
       48: "48px",
+      64: "64px",
     },
     transitionProperty: {
       'shadow': 'box-shadow',
