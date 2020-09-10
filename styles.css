@@ -1,13 +1,13 @@
 @tailwind base;
 
 :root {
-  @apply text-14 text-grayPlus2;
+  @apply text-14 text-gray60;
 }
 
 @tailwind components;
 
 .btn {
-  @apply bg-primaryPlus1 shadow-sm px-16 text-white font-bold rounded;
+  @apply bg-blue50 shadow-sm px-16 text-white font-bold rounded;
 }
 
 .btn:focus {
@@ -15,36 +15,36 @@
 }
 
 .btn:hover {
-  @apply bg-primary;
+  @apply bg-blue40;
 }
 
 .btn-secondary {
-  @apply bg-white border border-grayMinus1 text-grayPlus2;
+  @apply bg-white border border-gray30 text-gray60;
 }
 
 .btn-secondary:hover {
-  @apply text-grayPlus2 bg-white shadow-lg;
+  @apply text-gray60 bg-white shadow-lg;
 }
 
 .btn:disabled,
 .btn:disabled:hover {
-  @apply border-none bg-grayMinus2 shadow-none text-gray cursor-default;
+  @apply border-none bg-gray20 shadow-none text-gray40 cursor-default;
 }
 
 .input {
-  @apply border border-grayMinus1 rounded h-48 px-16 bg-grayMinus3;
+  @apply border border-gray30 rounded h-48 px-16 bg-gray10;
 }
 
 .input:hover:enabled {
-  @apply border-primaryPlus1;
+  @apply border-blue50;
 }
 
 .input:focus {
-  @apply bg-white outline-none border-primaryPlus1 shadow-focusedInput;
+  @apply bg-white outline-none border-blue50 shadow-focusedInput;
 }
 
 .input:disabled {
-  @apply bg-grayMinus2 border-grayMinus2;
+  @apply bg-gray20 border-gray20;
 }
 
 @tailwind utilities;
