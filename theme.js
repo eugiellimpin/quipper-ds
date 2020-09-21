@@ -116,7 +116,7 @@ const theme = {
     sm: "1px",
     md: "2px",
   },
-  borderRadius: {
+  radii: {
     sm: "2px",
     default: "4px",
     lg: "8px",

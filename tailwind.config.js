@@ -6,7 +6,7 @@ module.exports = {
     fontFamily: theme.fonts.body,
     fontSize: theme.fontSize,
     colors: theme.colors,
-    borderRadius: theme.borderRadius,
+    borderRadius: theme.radii,
     boxShadow: theme.shadows,
     spacing: theme.space,
     transitionProperty: {
