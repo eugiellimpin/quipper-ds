@@ -82,6 +82,16 @@ const theme = {
     md: "1.5",
     lg: "1.7",
   },
+  space: {
+    0: "0",
+    4: "4px",
+    8: "8px",
+    16: "16px",
+    24: "24px",
+    32: "32px",
+    48: "48px",
+    64: "64px",
+  },
   sizes: {
     width: {
       "1/12": `${(1 / 12) * 100}%`,
@@ -106,7 +116,7 @@ const theme = {
     sm: "1px",
     md: "2px",
   },
-  borderRadius: {
+  radii: {
     sm: "2px",
     default: "4px",
     lg: "8px",
@@ -116,9 +126,6 @@ const theme = {
     sm: "0 1px 3px 0 rgba(0,0,0,0.15)",
     md: "0 1px 6px 0 rgba(0,0,0,0.1)",
     lg: "0 2px 12px 0 rgba(0,0,0,0.1)",
-    header: "0 2px 6px 0 rgba(0,0,0,0.1)",
-    sidebar: "0 0 4px 0 rgba(0,0,0,0.2)",
-    focusedInput: "0 0 0 1px #009feb"
   },
   opacities: {
     15: 0.15,
