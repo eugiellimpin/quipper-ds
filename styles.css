@@ -1,50 +1,11 @@
 @tailwind base;
 
-:root {
-  @apply text-14 text-gray60;
-}
-
 @tailwind components;
 
-.btn {
-  @apply bg-blue50 shadow-sm px-16 text-white font-bold rounded;
-}
-
-.btn:focus {
-  @apply outline-none;
-}
-
-.btn:hover {
-  @apply bg-blue40;
-}
-
-.btn-secondary {
-  @apply bg-white border border-gray30 text-gray60;
-}
-
-.btn-secondary:hover {
-  @apply text-gray60 bg-white shadow-lg;
-}
-
-.btn:disabled,
-.btn:disabled:hover {
-  @apply border-none bg-gray20 shadow-none text-gray40 cursor-default;
-}
-
-.input {
-  @apply border border-gray30 rounded h-48 px-16 bg-gray10;
-}
-
-.input:hover:enabled {
-  @apply border-blue50;
-}
-
-.input:focus {
-  @apply bg-white outline-none border-blue50 shadow-focusedInput;
-}
-
-.input:disabled {
-  @apply bg-gray20 border-gray20;
-}
-
 @tailwind utilities;
+
+@layer base {
+  :root {
+    @apply text-gray60 text-14;
+  }
+}
