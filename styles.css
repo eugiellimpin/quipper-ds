@@ -9,3 +9,32 @@
     @apply text-gray60 text-14;
   }
 }
+
+/* TODO: Remove as these should eventually exist in just the component
+ * library, e.g., quipper-react-components */
+@layer components {
+  .btn {
+    @apply bg-blue50 shadow-sm px-16 text-white font-bold rounded;
+  }
+
+  .btn:focus {
+    @apply outline-none;
+  }
+
+  .btn:hover {
+    @apply bg-blue40;
+  }
+
+  .btn-secondary {
+    @apply bg-white border border-gray30 text-gray60;
+  }
+
+  .btn-secondary:hover {
+    @apply text-gray60 bg-white shadow-lg;
+  }
+
+  .btn:disabled,
+  .btn:disabled:hover {
+    @apply border-none bg-gray20 shadow-none text-gray40 cursor-default;
+  }
+}
