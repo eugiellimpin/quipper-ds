@@ -158,6 +158,9 @@ const theme = {
     50: 0.5,
     80: 0.8,
   },
+  transitionDuration: {
+    300: "300ms",
+  },
 };
 
 module.exports = theme;
