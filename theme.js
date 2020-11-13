@@ -1,4 +1,9 @@
 const theme = {
+  screens: {
+    // min-width
+    md: "769px",
+    lg: "1025px",
+  },
   colors: {
     blue60: "#0081cc",
     blue50: "#009feb",
