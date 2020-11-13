@@ -63,6 +63,10 @@ const theme = {
 
     black: "#000",
     white: "#fff",
+
+    // Base
+    transparent: "transparent",
+    current: "currentColor",
   },
   fontFamily: {
     body: ["'Open Sans'", "'Segoe UI'", "Tahoma", "sans-serif"],
@@ -130,33 +134,57 @@ const theme = {
     "9/12": "75%",
     "10/12": "83.333333%",
     "11/12": "91.666667%",
+
+    // Base
+    auto: "auto",
+    full: "100%",
+    screen: "100vw",
   },
   height: {
     16: "16px",
     20: "20px",
     24: "24px",
     32: "32px",
+
+    // Base
+    auto: "auto",
+    full: "100%",
+    screen: "100vh",
   },
   borderWidth: {
     sm: "1px",
     md: "2px",
+
+    // Base
+    0: "0",
+    default: "1px",
   },
   borderRadius: {
     sm: "2px",
-    default: "4px",
+    md: "4px",
     lg: "8px",
     circle: "9999px",
+
+    // Base
+    none: "0",
+    default: "4px",
   },
   boxShadow: {
     sm: "0 1px 3px 0 rgba(0,0,0,0.15)",
     md: "0 1px 6px 0 rgba(0,0,0,0.1)",
     lg: "0 2px 12px 0 rgba(0,0,0,0.1)",
+
+    // Base
+    none: "none",
   },
   opacity: {
     15: 0.15,
     30: 0.3,
     50: 0.5,
     80: 0.8,
+
+    // Base
+    0: 0,
   },
   transitionDuration: {
     300: "300ms",
