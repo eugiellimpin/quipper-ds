@@ -60,7 +60,7 @@ const theme = {
     white: "#fff",
   },
   fontFamily: {
-    body: "'Open Sans', 'Segoe UI', Tahoma, sans-serif",
+    body: ["'Open Sans'", "'Segoe UI'", "Tahoma", "sans-serif"],
   },
   fontSize: {
     10: "10px",
