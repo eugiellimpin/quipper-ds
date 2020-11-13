@@ -61,6 +61,7 @@ const theme = {
   },
   fontFamily: {
     body: ["'Open Sans'", "'Segoe UI'", "Tahoma", "sans-serif"],
+    content: ["'Source Serif Pro'", "Times", "serif"],
   },
   fontSize: {
     10: "10px",
