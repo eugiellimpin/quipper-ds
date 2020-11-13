@@ -145,6 +145,7 @@ const theme = {
     sm: "2px",
     default: "4px",
     lg: "8px",
+    circle: "9999px",
   },
   boxShadow: {
     sm: "0 1px 3px 0 rgba(0,0,0,0.15)",
