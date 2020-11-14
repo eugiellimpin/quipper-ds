@@ -185,6 +185,7 @@ const theme = {
 
     // Base
     0: 0,
+    100: 1,
   },
   transitionDuration: {
     300: "300ms",
